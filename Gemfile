@@ -31,6 +31,7 @@ gem 'go_to_webinar', :git => 'git://github.com/citrixonline/GoToWebinar-Ruby.git
 
 gem 'high_voltage'
 gem 'unicorn'
+gem 'figaro'
 
 gem 'rails_12factor', group: :production
 
