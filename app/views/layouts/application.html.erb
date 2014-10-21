@@ -3,12 +3,32 @@
 <head>
   <title>Guminar</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href="https://static-1.gumroad.com/res/gumroad/assets/application-c9c2ab813931f71663e1f6e5975177a7.css" rel="stylesheet" type="text/css">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	<div id="support" class="responsive">
+		<div class="top-bar"></div>
+		<div class="support-nav">
+			Help
+			<a href="http://help.gumroad.com">
+				<h1 class="ribbon-logo">
+					Gumroad
+				</h1>
+			</a>
+			Center 
+		</div>
+	
+		<div class="support-main">
+			<div class="support-body container">
+				<div class="content article eight columns offset-two">
+					<%= yield %>
+				</div>
+			</div>
+			<br class="clear">
+		</div>
+	</div>
 
 </body>
 </html>

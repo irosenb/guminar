@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
+  root :to => 'high_voltage/pages#show', :id => 'home'
+  # root "high_voltage/pages#home"
+  # root :module=> :high_voltage, :controller => :pages, :action => :show, :id => 'home'
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

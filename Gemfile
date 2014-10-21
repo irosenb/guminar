@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'go_to_webinar', :git => 'git://github.com/citrixonline/GoToWebinar-Ruby.git'
 
+gem 'high_voltage'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
