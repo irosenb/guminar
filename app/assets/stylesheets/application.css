@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+.article-content button {
+	width: 100%;
+}
+
+.article-content a:hover {
+	text-decoration: none;
+}
+
+footer {
+	padding-top: 0;
+	background: none;
+	margin-top: 0;
+}
